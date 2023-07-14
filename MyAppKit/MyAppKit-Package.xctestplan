@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "5FE4C271-4722-401D-B1E0-C764ACFB85E5",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "MyAppColorKitTests",
+        "name" : "MyAppColorKitTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "MyAppFontKitTests",
+        "name" : "MyAppFontKitTests"
+      }
+    }
+  ],
+  "version" : 1
+}
