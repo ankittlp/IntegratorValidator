@@ -1,0 +1,16 @@
+PODS:
+  - ANValidator (0.0.6)
+
+DEPENDENCIES:
+  - ANValidator
+
+SPEC REPOS:
+  trunk:
+    - ANValidator
+
+SPEC CHECKSUMS:
+  ANValidator: 2000ad83eed2a9fedf2da66a0d866e616f81b38d
+
+PODFILE CHECKSUM: 1613497bed91e1adff75ba903aea28ef5b77b3f3
+
+COCOAPODS: 1.9.1

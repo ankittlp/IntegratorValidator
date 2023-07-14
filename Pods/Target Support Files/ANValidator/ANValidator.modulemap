@@ -1,0 +1,6 @@
+framework module ANValidator {
+  umbrella header "ANValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}
