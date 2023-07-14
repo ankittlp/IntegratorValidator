@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "02598402-7684-46D5-93D4-06B09EDB9EB7"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9C6634B-DB28-4CA3-A104-1C97E10EA6A1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Framework_Repo/ANNetwork/Sources/ANNetwork/APIClient/WebApiClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "executeRequest(request:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D9C6634B-DB28-4CA3-A104-1C97E10EA6A1 - 55009fd807ee326c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ANNetwork.WebApiClient.executeRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: ANNetwork.RequestConvertable&gt;(request: &#x3c4;_0_0) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0.Response, Swift.Error&gt;"
+                  moduleName = "IntegratorValidator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitnigam/Documents/SourceCode/Framework_Repo/ANNetwork/Sources/ANNetwork/APIClient/WebApiClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1196">
+               </Location>
+               <Location
+                  uuid = "D9C6634B-DB28-4CA3-A104-1C97E10EA6A1 - 55009fd807ee326c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ANNetwork.WebApiClient.executeRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: ANNetwork.RequestConvertable&gt;(request: &#x3c4;_0_0) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0.Response, Swift.Error&gt;"
+                  moduleName = "IntegratorValidator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitnigam/Documents/SourceCode/Framework_Repo/ANNetwork/Sources/ANNetwork/APIClient/WebApiClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1320">
+               </Location>
+               <Location
+                  uuid = "D9C6634B-DB28-4CA3-A104-1C97E10EA6A1 - 28ba9d7c92f17198"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in ANNetwork.WebApiClient.executeRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: ANNetwork.RequestConvertable&gt;(request: &#x3c4;_0_0) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0.Response, Swift.Error&gt;"
+                  moduleName = "IntegratorValidator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankitnigam/Documents/SourceCode/Framework_Repo/ANNetwork/Sources/ANNetwork/APIClient/WebApiClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

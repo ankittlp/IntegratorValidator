@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "annetwork",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ankittlp/ANNetwork.git",
+      "state" : {
+        "revision" : "f3b6d6b4bd61f2c8467d5b076425a8c574ff48e4",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
