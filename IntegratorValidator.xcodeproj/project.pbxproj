@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		156B37292A6534CB0086EC77 /* ANAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = 156B37282A6534CB0086EC77 /* ANAnimation */; };
 		15AB2FCE2A5FD20F0084C7FF /* ANNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 15AB2FCD2A5FD20F0084C7FF /* ANNetwork */; };
 		15AB2FD12A61AE830084C7FF /* MyAppColorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 15AB2FD02A61AE830084C7FF /* MyAppColorKit */; };
 		15AB2FD32A61AE870084C7FF /* MyAppFontKit in Frameworks */ = {isa = PBXBuildFile; productRef = 15AB2FD22A61AE870084C7FF /* MyAppFontKit */; };
@@ -73,6 +74,7 @@
 				AA33440F949BB576CFBBFCCA /* Pods_IntegratorValidator.framework in Frameworks */,
 				15AB2FD12A61AE830084C7FF /* MyAppColorKit in Frameworks */,
 				15AB2FD32A61AE870084C7FF /* MyAppFontKit in Frameworks */,
+				156B37292A6534CB0086EC77 /* ANAnimation in Frameworks */,
 				15AB2FCE2A5FD20F0084C7FF /* ANNetwork in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,6 +185,7 @@
 				15AB2FCD2A5FD20F0084C7FF /* ANNetwork */,
 				15AB2FD02A61AE830084C7FF /* MyAppColorKit */,
 				15AB2FD22A61AE870084C7FF /* MyAppFontKit */,
+				156B37282A6534CB0086EC77 /* ANAnimation */,
 			);
 			productName = IntegratorValidator;
 			productReference = BCC9EBEF2484056B00DD9868 /* IntegratorValidator.app */;
@@ -237,6 +240,7 @@
 			mainGroup = BCC9EBE62484056B00DD9868;
 			packageReferences = (
 				15AB2FCC2A5FD20F0084C7FF /* XCRemoteSwiftPackageReference "ANNetwork" */,
+				156B37272A6534CB0086EC77 /* XCRemoteSwiftPackageReference "ANAnimationPack" */,
 			);
 			productRefGroup = BCC9EBF02484056B00DD9868 /* Products */;
 			projectDirPath = "";
@@ -612,6 +616,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		156B37272A6534CB0086EC77 /* XCRemoteSwiftPackageReference "ANAnimationPack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ankittlp/ANAnimationPack.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		15AB2FCC2A5FD20F0084C7FF /* XCRemoteSwiftPackageReference "ANNetwork" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ankittlp/ANNetwork.git";
@@ -623,6 +635,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		156B37282A6534CB0086EC77 /* ANAnimation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 156B37272A6534CB0086EC77 /* XCRemoteSwiftPackageReference "ANAnimationPack" */;
+			productName = ANAnimation;
+		};
 		15AB2FCD2A5FD20F0084C7FF /* ANNetwork */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 15AB2FCC2A5FD20F0084C7FF /* XCRemoteSwiftPackageReference "ANNetwork" */;

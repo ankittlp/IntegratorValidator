@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "ananimationpack",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ankittlp/ANAnimationPack.git",
+      "state" : {
+        "revision" : "1c2820d277d9024ce1c28d26121c51159a4ab26b",
+        "version" : "1.0.0"
+      }
+    },
+    {
       "identity" : "annetwork",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ankittlp/ANNetwork.git",

@@ -12,7 +12,7 @@ import MyAppColorKit
 import MyAppFontKit
 import ANNetwork
 import Combine
-//import ANAnimation
+import ANAnimation
 
 public extension Request {
     
@@ -105,13 +105,13 @@ class ViewController: UIViewController {
         textLabel.textColor = MyAppColor.myAppBlue
         textLabel.font = MyAppFont.lightSmall
         
-//        ANAnimation.animateMyView(duration: 5.0) { [self] in
-//            
-//            textLabel.textColor = MyAppColor().moodColor(true)
-//            textLabel.font = MyAppFont.boldSmall
-//            
-//            textLabel.frame.origin.y += 200
-//        }
+        ANAnimation.animateMyView(duration: 5.0) { [self] in
+            
+            textLabel.textColor = MyAppColor().moodColor(true)
+            textLabel.font = MyAppFont.boldSmall
+            
+            textLabel.frame.origin.y += 200
+        }
         
         requestExecutor.executeRequest(request: PostsRequest()).sink { completion in
             
